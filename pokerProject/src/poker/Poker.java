@@ -9,7 +9,7 @@ public class Poker {
 	 ******************/
 	public Poker()
 	{
-		
+		System.out.println("A new Poker is created.");
 	}
 
 	
