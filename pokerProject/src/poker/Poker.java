@@ -11,8 +11,15 @@ public class Poker {
 	{
 		System.out.println("A new Poker is created.");
 	}
-
 	
+	/**
+	 * Check whether this object is a Poker.
+	 * @return
+	 */
+	public boolean isPoker(){
+		return true;
+	}
+
 	/**
 	 * Test lint4j.
 	 */
@@ -22,7 +29,6 @@ public class Poker {
 		if(a.equals(""))return;
 		System.exit(1);
 	}
-
 
 	// Precondition: A hand of n cards have been sorted by card number.
 	/**
